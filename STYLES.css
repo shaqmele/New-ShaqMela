@@ -1,0 +1,85 @@
+/**********************Tag Selectors**********************************/
+
+
+body {
+    background-color: #EAF6F6;
+  }
+
+  hr {
+    background-color: #EAF6F6;
+    border-style: dotted none none;
+    border-color: grey;
+    border-width: 5px;
+    width: 6%;
+  }
+
+hr:hover {
+    background-color: #11999E;
+}
+
+h1 {
+  color: #66BFBF;
+}
+
+h3 {
+  color: #66BFBF;
+}
+
+h3:hover {
+    color: gold;
+
+
+}
+
+h3:active {
+    color: white;
+}
+
+
+  img {
+    height: 200px;
+
+  }
+
+/**********************Class Selectors**********************************/
+
+
+.shaq-MELA:hover {
+  color: gold;
+
+}
+
+.SHAQ-MELA:active {
+    color: #66BFBF;
+}
+
+.secondpages:hover {
+    color: gold;
+}
+
+.worktable {
+    border-color: #66BFBF;
+    border-width: thick;
+}
+
+.worktable:hover {
+    border-color: gold;
+}
+
+.links:hover {
+    color: #66BFBF;
+}
+
+.links:active {
+    color: gold;
+}
+
+
+
+
+/**********************ID Selectors**********************************/
+
+#picone:hover {
+    background: #66BFBF ;
+    filter: blur(1.5rem)
+}
